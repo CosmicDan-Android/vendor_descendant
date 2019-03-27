@@ -8,6 +8,6 @@ var DescendantConfig = struct {
 }{
 	// JavaSourceOverlayModuleWhitelist
 	[]string{
-		"org.lineageos.hardware",
+		"org.descendant.keydisabler",
 	},
 }
