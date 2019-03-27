@@ -127,9 +127,16 @@ GAPPS_VARIANT := nano
 GAPPS_PRODUCT_PACKAGES += \
     Dialer \
     Gmail \
+    KeyboardGoogle \
     Messenger \
     ContactsGoogle \
     FaceDetect \
     FaceUnlock \
     Markup
 
+# Key disabler package
+PRODUCT_PACKAGES += \
+    org.descendant.keydisabler
+
+PRODUCT_BOOT_JARS += \
+    org.descendant.keydisabler
